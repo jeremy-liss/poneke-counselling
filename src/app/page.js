@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="main-color">
 
-      <div className="w-4/5 flex flex-col mx-auto" style={{"height": "80vh"}} >
+      <div className="landing w-4/5 flex flex-col mx-auto">
         <div className="my-auto">
           <p className="absolute text-2xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide font-semibold w-max m-auto left-0 right-0 mt-12">Pōneke Counselling Collective</p>
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 w-4/5 mx-auto">
@@ -27,12 +27,12 @@ export default function Home() {
       </div>
 
       <div className="sticky top-0 py-5 main-color z-10 lg:w-4/5 mx-auto flex lg:col-span-2 justify-between mt-4 lg:mt-16">
-        <Link className="pl-3 lg:px-10 lg:text-2xl font-medium" href="#about-counselling">About Counselling</Link>
+        <Link className="pl-4 lg:px-10 lg:text-2xl font-medium" href="#about-counselling">About Counselling</Link>
         <Link className="lg:px-10 lg:text-2xl font-medium" href="#about-us">About Us</Link>
-        <Link className="pr-3 lg:px-10 lg:text-2xl font-medium" href="#about-groups">About Groups</Link>
+        <Link className="pr-4 lg:px-10 lg:text-2xl font-medium" href="#about-groups">About Groups</Link>
       </div>
 
-      <div id="about-counselling" className="container lg:h-screen flex mx-auto">
+      <div id="about-counselling" className="container h-screen flex mx-auto">
         <div className="w-4/5 m-auto">
           <p className="text-2xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide font-semibold">
             Counselling

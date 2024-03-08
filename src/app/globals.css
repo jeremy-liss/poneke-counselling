@@ -35,3 +35,13 @@ body {
 .main-color {
   background-color: #C4F102
 }
+
+.landing {
+  height: 90vh;
+}
+
+@media (min-width: 1024px) { 
+  .landing{
+    height: 80vh;
+  }
+}
