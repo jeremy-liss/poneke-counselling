@@ -26,10 +26,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="sticky top-0 py-5 main-color z-10 w-4/5 mx-auto flex flex-col lg:flex-row lg:col-span-2 justify-between mt-4 lg:mt-16">
-        <Link className="lg:px-10 lg:text-2xl font-medium" href="#about-counselling">About Counselling</Link>
+      <div className="sticky top-0 py-5 main-color z-10 lg:w-4/5 mx-auto flex lg:col-span-2 justify-between mt-4 lg:mt-16">
+        <Link className="pl-3 lg:px-10 lg:text-2xl font-medium" href="#about-counselling">About Counselling</Link>
         <Link className="lg:px-10 lg:text-2xl font-medium" href="#about-us">About Us</Link>
-        <Link className="lg:px-10 lg:text-2xl font-medium" href="#about-groups">About Groups</Link>
+        <Link className="pr-3 lg:px-10 lg:text-2xl font-medium" href="#about-groups">About Groups</Link>
       </div>
 
       <div id="about-counselling" className="container lg:h-screen flex mx-auto">
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" h-max flex mx-auto">
+      <div className="h-max flex mx-auto">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-16 gap-y-6 w-4/5 m-auto justify-between">
           <p className="col-start-1 col-end-2 text-4xl font-light w-1/2 mb-4">Gabrielle McGimpsey</p>
           <Image
@@ -110,6 +110,12 @@ export default function Home() {
       <div className="lg:h-screen flex mx-auto mt-10 lg:mt-0">
         <div className="lg:grid lg:grid-cols-2 lg:gap-x-16 gap-y-6 w-4/5 m-auto justify-between">
           <p className="col-start-2 text-4xl font-light w-1/2 mb-4">Emma White</p>
+          <Image
+            src="/emma.jpg"
+            className="lg:hidden"
+            width={400}
+            height={100}
+          />
           <div className="row-start-2 lg:border-t lg:border-black my-auto">
             <p className="my-4">
               Nō Airana ōku tīpuna. He uri tēnei o Tangata Tiriti. I tipu ake
@@ -137,7 +143,7 @@ export default function Home() {
           </div>
           <Image
             src="/emma.jpg"
-            className="row-start-2"
+            className="row-start-2 hidden lg:block"
             width={400}
             height={100}
           />
@@ -145,7 +151,7 @@ export default function Home() {
       </div>
 
       <div id="about-groups" className="lg:h-screen mt-10 flex mx-auto">
-        <div className="w-4/5 mx-auto">
+        <div className="w-4/5 m-auto">
           <p className="text-2xl md:text-5xl lg:text-6xl xl:text-7xl tracking-wide font-semibold pb-8">
             Groups
           </p>
